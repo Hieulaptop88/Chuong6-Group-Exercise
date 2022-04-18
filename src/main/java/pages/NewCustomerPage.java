@@ -108,14 +108,14 @@ public class NewCustomerPage {
     }
 
     public void fillAll(){
-        driver.findElement(customerName).sendKeys("Phan Tuan");
-        driver.findElement(dob).sendKeys("07112001");
+        driver.findElement(customerName).sendKeys("Hieu Pham");
+        driver.findElement(dob).sendKeys("03102001");
         driver.findElement(address).sendKeys("KTX VietHan");
         driver.findElement(city).sendKeys("DaNang");
         driver.findElement(state).sendKeys("DaNang");
         driver.findElement(pin).sendKeys("454545");
         driver.findElement(mobileNum).sendKeys("454545");
-        driver.findElement(email).sendKeys("454545@gmail.com");
+        driver.findElement(email).sendKeys("pmhieu.19it3@vku.udn.vn");
         driver.findElement(password).sendKeys("454545");
 
     }
